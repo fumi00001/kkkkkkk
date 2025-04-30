@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>背景画像テスト</title>
+  <style>
+    body {
+      background-image: url("ai.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100vh;
+      margin: 0;
+      color: white;
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    main {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    /* 右下に固定するブログエリア */
+    .blog-container {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      width: 300px;
+      background-color: rgba(0, 0, 0, 0.7); /* 半透明の背景 */
+      padding: 15px;
+      border-radius: 10px;
+      color: white;
+    }
+
+    .blog-container textarea {
+      width: 100%;
+      height: 150px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .blog-container button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .blog-container button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>劇場版名探偵コナン一覧</h1>
+  </header>
+  <main>
+    <form>
+      
+<label><input type="checkbox"> 時計じかけの摩天楼（1997年）</label><br>
+    <label><input type="checkbox"> 14番目の標的（1998年）</label><br>
+    <label><input type="checkbox"> 世紀末の魔術師（1999年）</label><br>
+    <label><input type="checkbox"> 瞳の中の暗殺者（2000年）</label><br>
+    <label><input type="checkbox"> 天国へのカウントダウン（2001年）</label><br>
+    <label><input type="checkbox"> ベイカー街の亡霊（2002年）</label><br>
+    <label><input type="checkbox"> 迷宮の十字路（2003年）</label><br>
+    <label><input type="checkbox"> 銀翼の奇術師（2004年）</label><br>
+    <label><input type="checkbox"> 水平線上の陰謀（2005年）</label><br>
+    <label><input type="checkbox"> 探偵たちの鎮魂歌（2006年）</label><br>
+    <label><input type="checkbox"> 紺碧の棺（2007年）</label><br>
+    <label><input type="checkbox"> 戦慄の楽譜（2008年）</label><br>
+    <label><input type="checkbox"> 漆黒の追跡者（2009年）</label><br>
+    <label><input type="checkbox"> 天空の難破船（2010年）</label><br>
+    <label><input type="checkbox"> 沈黙の15分（2011年）</label><br>
+    <label><input type="checkbox"> 11人目のストライカー（2012年）</label><br>
+    <label><input type="checkbox"> 絶海の探偵（2013年）</label><br>
+    <label><input type="checkbox"> 異次元の狙撃手（2014年）</label><br>
+    <label><input type="checkbox"> 業火の向日葵（2015年）</label><br>
+    <label><input type="checkbox"> 純黒の悪夢（2016年）</label><br>
+    <label><input type="checkbox"> から紅の恋歌（2017年）</label><br>
+    <label><input type="checkbox"> ゼロの執行人（2018年）</label><br>
+    <label><input type="checkbox"> 紺青の拳（2019年）</label><br>
+    <label><input type="checkbox"> 緋色の弾丸（2021年）</label><br>
+    <label><input type="checkbox"> ハロウィンの花嫁（2022年）</label><br>
+    <label><input type="checkbox"> 黒鉄の魚影（2023年）</label><br>
+    <label><input type="checkbox"> 100万ドルの五稜星（2024年）</label><br>
+    </form>
+  </main>
+
+  <!-- 右下に表示されるブログフォーム -->
+  <div class="blog-container">
+    <h3>ブログを書く</h3>
+    <textarea placeholder="ここにブログを書いてください..."></textarea>
+    <button>投稿する</button>
+  </div>
+</body>
+</html>
